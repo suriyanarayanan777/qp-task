@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import "./Contact.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { nanoid } from 'nanoid'
+
 
 const Contact = () => {
   const contacts = useSelector((state) => state);
